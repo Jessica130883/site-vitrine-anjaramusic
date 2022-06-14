@@ -1,5 +1,93 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    display: table;
+}
 .header {
     background-color: pink;
     height: 500px;
     width: 1400px;
+}
+
+/* MUSIQUE */
+.sectionMusique {
+    text-align: center;
+}
+
+.pictureCover {
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CLIP*/
+.videoClip {
+    text-align: center;
+}
+.video {
+    height: 150px;
+    width: 200px;
+}
+
+/* BIO */
+.biographie {
+    text-align: center;
+}
+
+/*CONCERTS */
+.live {
+    text-align: center;
+}
+
+/*PHOTOS*/
+.photos {
+    text-align: center;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
+/* FOOTER */
+footer {
+    display: table-row;
+    height: 1px;
+    background-color: #D60055;
+}
+.containerFooter {
+    text-align: center;
+    color: white;
+}
+.iconeFacebook, .iconeInstagram, .iconeYoutube {
+    display: inline;
+    font-size: 25px;
+}
+.iconeInstagram {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.contactFooter {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.copyright {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.contact, .mentionsLegales, .faq {
+    display: inline;
+}
+.mentionsLegales {
+    margin-right: 10px;
+    margin-Left: 10px;
+}
+.lienFooter {
+    color: white;
+}
+.lienFooter:hover {
+    color: #5B0527;
 }
