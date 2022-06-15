@@ -5,6 +5,7 @@ html, body {
     height: 100%;
     overflow-x: hidden;
     display: table;
+    background-color: #000;
 }
 .header {
     background-color: pink;
@@ -51,6 +52,11 @@ html, body {
 img {
     height: 300px;
     width: 300px;
+}
+
+/*CONTACT*/
+.infoContact {
+    text-align: center;
 }
 /* FOOTER */
 footer {
