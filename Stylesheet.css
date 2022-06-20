@@ -10,7 +10,7 @@ html, body {
 .header {
     background-color: pink;
     height: 500px;
-    width: 1400px;
+    width: 100%;
 }
 
 /* MUSIQUE */
@@ -49,10 +49,10 @@ html, body {
 .photos {
     text-align: center;
 }
-img {
-    height: 300px;
-    width: 300px;
+.d-block {
+    height: 600px;
 }
+
 
 /*CONTACT*/
 .infoContact {
