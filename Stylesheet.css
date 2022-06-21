@@ -18,9 +18,19 @@ object-fit: fill;
     height: 500px;
 }
 
+/*NAVBAR*/
+nav {
+margin-bottom: 150px;
+}
+
 /* MUSIQUE */
 .sectionMusique {
     text-align: center;
+    margin-bottom: 20px;
+}
+.titreEp {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .pictureCover {
@@ -29,6 +39,7 @@ object-fit: fill;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 150px;
 }
 
 /*CLIP*/
@@ -39,20 +50,36 @@ object-fit: fill;
     height: 150px;
     width: 200px;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* BIO */
+.bio {
+    margin-top: 150px;
+}
 .biographie {
     text-align: center;
+    margin-bottom: 50px;
 }
 
 /*CONCERTS */
 .live {
     text-align: center;
+    margin-top: 300px;
+}
+.titleConcert {
+    margin-bottom: 200px;
 }
 
 /*PHOTOS*/
+
 .photos {
     text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 .d-block {
     height: 600px;
@@ -60,9 +87,15 @@ object-fit: fill;
 
 
 /*CONTACT*/
+.titleContact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .infoContact {
     text-align: center;
+    margin-top: 30px;
 }
+
 /* FOOTER */
 footer {
     display: table-row;
