@@ -12,11 +12,13 @@
     <title>anjaramusic</title>
 </head>
 <body>
-  <header>
+  <header id="partHeader">
+    
     <div class="header">
       <video class="headerVideo" width="1300" height="500" loop="true" autoplay muted>
         <source src="Vidéos/clip_short.mp4" type="video/mp4"></video>
     </div>
+    
   </header>
     
     <nav class="navbar navbar-expand-lg bg-light">
@@ -27,19 +29,19 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Accueil</a>
-              <a class="nav-link" href="#">Bio</a>
-              <a class="nav-link" href="#">Musique</a>
-              <a class="nav-link" href="#">Clip</a>
-              <a class="nav-link" href="#">Live</a>
-              <a class="nav-link" href="#">Photos</a>
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link active" aria-current="page" href="#partHeader">Accueil</a>
+              <a class="nav-link" href="#partBio">Bio</a>
+              <a class="nav-link" href="#partProjet">Musique</a>
+              <a class="nav-link" href="#partVideo">Clip</a>
+              <a class="nav-link" href="#partConcert">Live</a>
+              <a class="nav-link" href="#partPhoto">Photos</a>
+              <a class="nav-link" href="#partContact">Contact</a>
               
             </div>
           </div>
         </div>
       </nav>
-      <section class="newProject">
+      <section class="newProject" id="partProjet">
       <div class="newEp">
         <h2 class="sectionMusique">Nouvel EP</h2>
         <p class="titreEp">RISE AGAIN</p>
@@ -47,7 +49,7 @@
       </div>
       </section>
 
-      <section class="bio">
+      <section class="bio" id="partBio">
         <h2 class="biographie">Biographie</h2>
         <p class="infoBio">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         <p class="infoBio">
@@ -55,9 +57,10 @@
         </p>
 
       </section>
-      <section class="videoClip">
+      <section class="videoClip" id="partVideo">
         <h2 class="videoClip">Clip Vidéo</h2>
-        <video width="400" height="250" controls>
+        <h3>Disponible sur YouTube</h3>
+        <video width="700" height="700" controls>
             <source src="Vidéos/Clip.mp4" type="video/mp4">
         </video>
         <div class="button">
@@ -69,15 +72,68 @@
       </section>
 
       </section>
-      <section class="live">
+      <section class="live" id="partConcert">
         <h2 class="titleConcert">Concerts</h2>
-        <p class="datesConcerts">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
+        <h3 id="next">À venir</h3>
+        <div>
+        <table>
+          <thead>
+            <th scope="row">Date</th>
+          <th scope="row">Lieu</th>
+          <th scope="row">Ville</th>
+          <th scope="row">Dpt</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2023</td>
+              <td>Tremplin - BrayeZic'Up</td>
+              <td>St-Jean-de-Braye</td>
+              <td>45</td>
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        <div>
+        <h3 id="past">Passé</h3>
+        <table>
+        <thead>
+          <th scope="row">Date</th>
+          <th scope="row">Lieu</th>
+          <th scope="row">Ville</th>
+          <th scope="row">Dpt</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2018</td>
+            <td>Tremplin - Bateau El Alamein</td>
+            <td>Paris</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Paris Story</td>
+            <td>Paris</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>Bar</td>
+            <td>Paris</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>Le Palace</td>
+            <td>Paris</td>
+            <td>75</td>
+          </tr>
+        </tbody>
+        </table>
+        </div>
 
       </section>
 
-      <section class="photos">
+      <section class="photos" id="partPhoto">
         <h2 class="titreCarsousel">Photos</h2>
 
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -113,7 +169,7 @@
 
       </section>
 
-      <section id="contact">
+      <section id="partContact">
     
         <div class="infoContact">
             <div id="Socials">

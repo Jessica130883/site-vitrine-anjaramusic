@@ -9,6 +9,7 @@ html, body, h2, p {
     color: white;
 
 }
+/*HEADER*/
 .headerVideo {
 max-height: 900px;
 width: 100%;
@@ -16,6 +17,9 @@ object-fit: fill;
 }
 .header {
     height: 500px;
+}
+#first {
+    position: fixed;
 }
 
 /*NAVBAR*/
@@ -45,6 +49,7 @@ margin-bottom: 150px;
 /*CLIP*/
 .videoClip {
     text-align: center;
+    margin-top: 150px;
 }
 .video {
     height: 150px;
@@ -53,6 +58,10 @@ margin-bottom: 150px;
 a {
     color: white;
     text-decoration: none;
+}
+button {
+    height: 50px;
+    width: 200px;
 }
 
 
@@ -68,10 +77,23 @@ a {
 /*CONCERTS */
 .live {
     text-align: center;
-    margin-top: 300px;
+    margin-top: 150px;
 }
 .titleConcert {
-    margin-bottom: 200px;
+    margin-bottom: 30px;
+}
+h3 {
+    margin-bottom: 50px;
+    font-style: italic;
+}
+table {
+    margin: auto;
+}
+td {
+    text-align: center;
+}
+.past {
+    margin-top: 50px;
 }
 
 /*PHOTOS*/
