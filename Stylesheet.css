@@ -48,21 +48,22 @@ margin-bottom: 150px;
 }
 
 /*CLIP*/
-.videoClip {
+.title-1, .title-2 {
     text-align: center;
-    margin-top: 150px;
+    margin-bottom: 30px;
 }
-.video {
-    height: 150px;
-    width: 200px;
+.video-play {
+    text-align: center;
+    margin-bottom: 30px;
 }
-a {
-    color: white;
-    text-decoration: none;
-}
+
 button {
     height: 50px;
     width: 200px;
+}
+a {
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -73,6 +74,9 @@ button {
 .biographie {
     text-align: center;
     margin-bottom: 50px;
+}
+#partBio {
+    margin-bottom: 60px;
 }
 
 /*CONCERTS */
@@ -89,11 +93,25 @@ h3 {
 }
 table {
     margin: auto;
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+    
+}
+thead {
+    border-bottom: solid white 1px;
 }
 td {
     text-align: center;
+    border-bottom: solid grey 0.5px;
+    
 }
-.past {
+.size-table {
+ width: 950px;
+ margin: auto;
+ margin-bottom: 50px;
+}
+.past-events {
     margin-top: 50px;
 }
 

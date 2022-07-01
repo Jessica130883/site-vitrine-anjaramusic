@@ -57,31 +57,35 @@
         </p>
 
       </section>
-      <section class="videoClip" id="partVideo">
-        <h2 class="videoClip">Clip Vidéo</h2>
-        <h3>Disponible sur YouTube</h3>
-        <video width="700" height="700" controls>
-            <source src="Vidéos/Clip.mp4" type="video/mp4">
-        </video>
-        <div class="button">
-        <button type="button" class="btn btn-primary"
-        style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><a href="https://www.youtube.com/watch?v=nRgVI1P_nQ4" target="_blank">Suivez-moi sur YouTube</a>
+      <section class="video-part">
+       
+        <h2 class="title-1">Clip Vidéo</h2>
+        <h3 class="title-2">Disponible sur YouTube</h3>
+        
+            <div class="video-play" >
+              <video class="video-clip" width="700" height="400" controls>
+                  <source src="Vidéos/Clip.mp4" type="video/mp4">
+              </video>
+            </div>
+      
+        <div class="button text-center" >
+        <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;"><a href="https://www.youtube.com/channel/UC96_AMwzJuxoI3b6RaPwkRg" target="_blank">Suivez-moi sur YouTube</a>
   
-</button>
-</div>
+    </button>
+    </div>
       </section>
 
       </section>
       <section class="live" id="partConcert">
         <h2 class="titleConcert">Concerts</h2>
         <h3 id="next">À venir</h3>
-        <div>
+        <div class="size-table">
         <table>
           <thead>
             <th scope="row">Date</th>
           <th scope="row">Lieu</th>
           <th scope="row">Ville</th>
-          <th scope="row">Dpt</th>
+          <th scope="row">Département</th>
           </thead>
           <tbody>
             <tr>
@@ -93,14 +97,14 @@
           </tbody>
         </table>
         </div>
-        <div>
-        <h3 id="past">Passé</h3>
+        <div class="size-table">
+        <h3 id="past-events">Passé</h3>
         <table>
         <thead>
           <th scope="row">Date</th>
           <th scope="row">Lieu</th>
           <th scope="row">Ville</th>
-          <th scope="row">Dpt</th>
+          <th scope="row">Département</th>
         </thead>
         <tbody>
           <tr>
