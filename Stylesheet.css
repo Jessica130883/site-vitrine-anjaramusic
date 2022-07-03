@@ -104,6 +104,7 @@ thead {
 td {
     text-align: center;
     border-bottom: solid grey 0.5px;
+    height: 50px;
     
 }
 .size-table {
@@ -115,8 +116,12 @@ td {
     margin-top: 50px;
 }
 
+
 /*PHOTOS*/
 
+.titreCarousel {
+    margin-bottom: 30px;
+}
 .photos {
     text-align: center;
     margin-top: 150px;
@@ -125,18 +130,27 @@ td {
 .d-block {
     height: 600px;
 }
-
+.carousel-inner {
+    height: 500px;
+   
+    
+}
+.carousel-item {
+    height: 500px;
+    
+}
 
 /*CONTACT*/
 .titleContact {
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.infoContact {
+.info-contact {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 60px;
 }
-
 /* FOOTER */
 footer {
     display: table-row;
@@ -146,6 +160,7 @@ footer {
 .containerFooter {
     text-align: center;
     color: white;
+    background-color: #D60055;
 }
 .iconeFacebook, .iconeInstagram, .iconeYoutube {
     display: inline;
@@ -158,10 +173,11 @@ footer {
 .contactFooter {
     margin-top: 20px;
     margin-bottom: 10px;
+    background-color: #D60055;
 }
 .copyright {
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .contact, .mentionsLegales, .faq {
     display: inline;
@@ -174,5 +190,8 @@ footer {
     color: white;
 }
 .lienFooter:hover {
-    color: #5B0527;
+    color: #D60055;
+}
+.contacter, .mentionsLegales, .faq {
+    background-color: #D60055;
 }
