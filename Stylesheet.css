@@ -35,6 +35,7 @@ margin-bottom: 150px;
 .titreEp {
     text-align: center;
     margin-bottom: 50px;
+    font-size: 20px;
 }
 
 .pictureCover {
@@ -64,6 +65,9 @@ button {
 a {
     text-decoration: none;
     color: white;
+}
+.nom-clip {
+    text-align: center;
 }
 
 
@@ -131,14 +135,17 @@ td {
     height: 600px;
 }
 .carousel-inner {
-    height: 500px;
-   
+    height: 600px;
+    width: 1300px;
+    margin: auto;
+    
     
 }
 .carousel-item {
     height: 500px;
     
 }
+
 
 /*CONTACT*/
 .titleContact {
@@ -164,7 +171,7 @@ footer {
 }
 .iconeFacebook, .iconeInstagram, .iconeYoutube {
     display: inline;
-    font-size: 25px;
+    font-size: 35px;
 }
 .iconeInstagram {
     margin-left: 5px;
@@ -172,26 +179,12 @@ footer {
 }
 .contactFooter {
     margin-top: 20px;
-    margin-bottom: 10px;
     background-color: #D60055;
 }
 .copyright {
-    margin-top: 15px;
+    margin-top: 40px;
     margin-bottom: 40px;
+    height: 70px;
+    text-align: center;
 }
-.contact, .mentionsLegales, .faq {
-    display: inline;
-}
-.mentionsLegales {
-    margin-right: 10px;
-    margin-Left: 10px;
-}
-.lienFooter {
-    color: white;
-}
-.lienFooter:hover {
-    color: #D60055;
-}
-.contacter, .mentionsLegales, .faq {
-    background-color: #D60055;
-}
+
