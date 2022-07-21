@@ -77,10 +77,15 @@ a {
 }
 .biographie {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 #partBio {
     margin-bottom: 60px;
+}
+.infoBio {
+    padding-right: 60px;
+    padding-left: 60px;
+    text-align: justify;
 }
 
 /*CONCERTS */
